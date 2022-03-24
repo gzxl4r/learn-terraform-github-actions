@@ -10,7 +10,7 @@ terraform {
     }
   }
   required_version = "~> 1.0"
-
+# Some code
   backend "remote" {
     organization = "ACG-Terraform-Demos-LJS"
 
