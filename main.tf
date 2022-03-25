@@ -10,9 +10,13 @@ terraform {
     }
   }
   required_version = "~> 1.0"
-
+# Some code
   backend "remote" {
     organization = "ACG-Terraform-Demos-LJS"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 951d525f93642caf071ac614d6616ac134d593a9
     workspaces {
       name = "demo-github-actions"
     }
