@@ -10,7 +10,7 @@ terraform {
     }
   }
   required_version = "~> 1.0"
-# Some code
+  # Some code
   backend "remote" {
     organization = "ACG-Terraform-Demos-LJS"
 
@@ -22,7 +22,7 @@ terraform {
 
 
 provider "aws" {
-  region = "us-east-1"
+  region = "eu-west-2"
 }
 
 
